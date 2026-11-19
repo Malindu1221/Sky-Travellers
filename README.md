@@ -1,7 +1,7 @@
 <div align="center">
-  <img src="assets/images/readme-banner.png" alt="Airplane flying through sunset clouds" width="180">
+  <img src="assets/images/slider1.jpeg" alt="SkyTravellers flight banner" width="100%">
 
-  <h1>SkyTravellers</h1>
+  <h1>✈️ SkyTravellers</h1>
   <p>Search flights, manage bookings, and keep your travel details in one place.</p>
 
   <p>
