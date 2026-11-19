@@ -1,0 +1,97 @@
+/* Admin Content Styles */
+.admin-content {
+    padding: 20px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+/* Action Bar Styles */
+.action-bar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.btn {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.search-bar {
+    display: flex;
+}
+
+.search-bar input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-right: none;
+    border-radius: 5px 0 0 5px;
+}
+
+.btn-search {
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    border-left: none;
+    border-radius: 0 5px 5px 0;
+}
+
+/* Table Styles */
+.flight-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.flight-table th,
+.flight-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.flight-table th {
+    background-color: #f8f9fa;
+    font-weight: bold;
+}
+
+.flight-table tr:hover {
+    background-color: #f5f5f5;
+}
+
+.btn-add-flight,
+.btn-delete {
+    padding: 5px 10px;
+    margin-right: 5px;
+    font-size: 0.9em;
+}
+
+.btn-add-flight {
+    background-color: #28a745;
+    color: white;
+}
+
+.btn-add-flight:hover {
+    background-color: #218838;
+}
+
+.btn-delete {
+    background-color: #dc3545;
+    color: white;
+}
+
+.btn-delete:hover {
+    background-color: #c82333;
+}

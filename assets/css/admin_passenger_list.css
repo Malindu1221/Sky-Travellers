@@ -1,0 +1,48 @@
+.admin-container {
+    padding: 20px;
+}
+
+.search-container {
+    margin-bottom: 20px;
+}
+
+.search-container input[type="text"] {
+    padding: 8px;
+    width: 300px;
+}
+
+.search-container button {
+    padding: 8px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.passenger-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.passenger-table th, .passenger-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.passenger-table th {
+    background-color: #f2f2f2;
+}
+
+.passenger-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.passenger-table a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.passenger-table a:hover {
+    text-decoration: underline;
+}

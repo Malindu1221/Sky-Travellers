@@ -1,0 +1,111 @@
+/* Search results section */
+.search-results {
+    margin: 30px 50px;
+}
+
+.search-results h2 {
+    color: #333;
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+}
+
+/* Flight card styles */
+.flight-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flight-info {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+
+.departure, .arrival {
+    width: 45%;
+}
+
+.departure h3, .arrival h3 {
+    margin: 0;
+    color: #333;
+}
+
+.time {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.date {
+    color: #666;
+}
+
+/* Booking options styles */
+.booking-options {
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+}
+
+.class-option {
+    text-align: center;
+    width: 30%;
+}
+
+.class-option h4 {
+    margin: 0;
+    color: #333;
+}
+
+.class-option p {
+    margin: 5px 0;
+}
+
+/* Button styles */
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+button:disabled {
+    background-color: #cccccc;
+    color: #666666;
+    cursor: not-allowed;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+    }
+
+    .flight-card {
+        flex-direction: column;
+    }
+
+    .flight-info, .booking-options {
+        width: 100%;
+    }
+
+    .booking-options {
+        margin-top: 20px;
+    }
+}

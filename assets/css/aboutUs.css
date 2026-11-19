@@ -1,0 +1,52 @@
+.about-sections {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+section img {
+    max-width: 40%;
+    height: auto;
+    border-radius: 10px;
+}
+
+section div {
+    max-width: 55%;
+}
+
+.mission {
+    flex-direction: row; /* Text first, image second */
+}
+
+.who-we-are {
+    flex-direction: row-reverse; /* Image first, text second */
+}
+
+.commitment {
+    flex-direction: row; /* Text first, image second */
+}
+
+/* For smaller screens, stack the content vertically */
+@media (max-width: 768px) {
+    section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    section img {
+        max-width: 100%;
+    }
+
+    section div {
+        max-width: 100%;
+    }
+}

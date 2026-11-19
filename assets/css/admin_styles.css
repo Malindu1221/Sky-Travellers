@@ -1,0 +1,123 @@
+/* Admin Header Styles */
+.admin-header {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 40px;
+}
+
+.admin-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #2d7472; /* Green background */
+    padding: 10px 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.admin-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    margin-right: 20px;
+}
+
+.logout-btn {
+    background-color: #ff4757; /* Red background for logout */
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.logout-btn:hover {
+    background-color: #e84118; /* Darker red on hover */
+    text-decoration: underline;
+}
+
+/* Admin Navigation Styles */
+.admin-nav {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #ddd;
+}
+
+.admin-nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.admin-nav li {
+    padding: 10px 15px;
+}
+
+.admin-nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+.admin-nav a.active {
+    font-weight: bold;
+    color: #007bff;
+}
+
+/* Admin Container Styles */
+.admin-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Admin Footer Styles */
+.admin-footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.footer-logo img {
+    height: 40px;
+}
+
+.footer-links ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-social {
+    margin-bottom: 10px;
+}
+
+.social-icon {
+    color: white;
+    font-size: 20px;
+    margin: 0 10px;
+}
+
+.footer-copyright {
+    font-size: 0.9em;
+}

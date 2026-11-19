@@ -1,0 +1,121 @@
+/* My Flights Styles */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.flight-ticket {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ticket-content {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+.cities {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.departure, .arrival {
+    text-align: center;
+}
+
+.departure h3, .arrival h3 {
+    font-size: 24px;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.departure p, .arrival p {
+    color: #666;
+    margin: 5px 0;
+}
+
+.departure h2, .arrival h2 {
+    font-size: 28px;
+    margin: 5px 0;
+    color: #000;
+}
+
+.flight-icon {
+    font-size: 24px;
+    color: #666;
+    padding: 0 20px;
+}
+
+.airline-info {
+    text-align: right;
+    margin-top: 10px;
+}
+
+.airline-info p {
+    margin: 5px 0;
+    color: #666;
+}
+
+.ticket-actions {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+.btn-print, .btn-cancel {
+    padding: 10px 20px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.btn-print {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.btn-cancel {
+    background-color: #f44336;
+    color: white;
+}
+
+.no-flights {
+    text-align: center;
+    color: #666;
+    font-size: 18px;
+    margin-top: 50px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .flight-ticket {
+        flex-direction: column;
+    }
+    
+    .ticket-actions {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .btn-print, .btn-cancel {
+        width: 48%;
+    }
+}
